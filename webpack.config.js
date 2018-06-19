@@ -13,8 +13,8 @@ const config = merge(base, {
       minify: false
     }),
     new HtmlWebpackPlugin({
-      template: "./src/form.pug",
-      filename: 'form.html',
+      template: "./src/index.html",
+      filename: 'index-html.html',
       minify: false
     })
   ],
